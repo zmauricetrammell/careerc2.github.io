@@ -109,3 +109,61 @@ footer {
     padding: 3rem 0;
     border-top: 1px solid #e5e7eb;
 }
+
+.architecture {
+    margin-top: 3rem;
+    text-align: center;
+}
+
+.architecture-main {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 2rem;
+    border: 2px solid #2563eb;
+    border-radius: 12px;
+    background: #ffffff;
+}
+
+.architecture-main strong,
+.architecture-card strong {
+    display: block;
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+.architecture-main span,
+.architecture-card span {
+    color: #4b5563;
+}
+
+.architecture-line {
+    width: 2px;
+    height: 50px;
+    background: #2563eb;
+    margin: 0 auto;
+}
+
+.architecture-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+}
+
+.architecture-card {
+    padding: 1.5rem;
+    border: 1px solid #dbe3ef;
+    border-radius: 10px;
+    background: #ffffff;
+}
+
+@media (max-width: 900px) {
+    .architecture-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 600px) {
+    .architecture-grid {
+        grid-template-columns: 1fr;
+    }
+}
