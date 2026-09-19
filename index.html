@@ -3,14 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <title>CareerC2</title>
-
-    <meta
-        name="description"
-        content="CareerC2 is a veteran-focused career application and decision-support platform."
-    >
-
+    <meta name="description" content="CareerC2 is a veteran-focused career application and decision-support platform.">
     <link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -18,85 +12,84 @@
 
 <header class="site-header">
     <div class="container">
-        <div class="brand">
-            CareerC2
-        </div>
+        <a class="brand" href="#top">CareerC2</a>
 
-        <nav>
+        <nav aria-label="Primary navigation">
             <a href="#problem">Problem</a>
             <a href="#platform">Platform</a>
+            <a href="#suite">Tools</a>
             <a href="#chimera">Chimera</a>
             <a href="#roadmap">Roadmap</a>
         </nav>
     </div>
 </header>
 
-<main>
+<main id="top">
 
     <section class="hero">
         <div class="container">
+            <!-- Add the strongest CareerC2 value proposition here. -->
+            <span class="eyebrow">Veteran Career Platform</span>
+            <h1>[Main CareerC2 headline]</h1>
+            <p class="lead">[Short explanation of CareerC2, who it is for, and why it matters.]</p>
 
-            <!--
-            Put your strongest value proposition here.
-
-            This should answer:
-            - What is CareerC2?
-            - Who is it for?
-            - Why should they care?
-            -->
-
-            <h1>
-                [Main CareerC2 headline]
-            </h1>
-
-            <p>
-                [Short explanation of the platform]
-            </p>
-
-            <a class="button" href="#platform">
-                Learn More
-            </a>
-
+            <div class="hero-actions">
+                <a class="button" href="#platform">Learn More</a>
+                <a class="button button-secondary" href="#chimera">Explore Chimera</a>
+            </div>
         </div>
     </section>
 
     <section id="problem">
         <div class="container">
-
-            <h2>
-                [The Problem]
-            </h2>
+            <span class="eyebrow">The Environment</span>
+            <h2>[The Problem]</h2>
 
             <!--
-            Explain the modern job-market problems here.
-
-            Suggested topics:
+            Explain:
             - application volume
             - generic resumes
             - veteran experience translation
-            - cross-functional backgrounds
+            - cross-functional military backgrounds
             - time required to tailor applications
+            - recruiters should not have to infer qualifications
             -->
 
+            <p class="section-intro">[Brief setup paragraph explaining the problem CareerC2 is designed to solve.]</p>
+
+            <div class="feature-grid">
+                <div class="feature-card">
+                    <h3>[Obstacle 1]</h3>
+                    <p>[Explain one major job-market obstacle and why it matters.]</p>
+                </div>
+
+                <div class="feature-card">
+                    <h3>[Obstacle 2]</h3>
+                    <p>[Explain one major job-market obstacle and why it matters.]</p>
+                </div>
+
+                <div class="feature-card">
+                    <h3>[Obstacle 3]</h3>
+                    <p>[Explain one major job-market obstacle and why it matters.]</p>
+                </div>
+
+                <div class="feature-card">
+                    <h3>[Obstacle 4]</h3>
+                    <p>[Explain one major job-market obstacle and why it matters.]</p>
+                </div>
+            </div>
         </div>
     </section>
 
     <section id="platform">
         <div class="container">
-
-            <h2>
-                [CareerC2 Platform Overview]
-            </h2>
+            <span class="eyebrow">The Platform</span>
+            <h2>[CareerC2 Platform Overview]</h2>
 
             <!--
-            Explain the whole product.
+            Explain CareerC2 as the coordinating platform for the veteran job hunt.
 
-            Keep this high-level.
-
-            Describe CareerC2 as the coordinating platform
-            for the veteran job hunt.
-
-            Potential concepts:
+            Possible concepts:
             - common operating picture
             - opportunities
             - professional evidence
@@ -104,258 +97,364 @@
             - decision support
             - specialized subsystems
             -->
+
+            <p class="section-intro">[Explain how CareerC2 coordinates specialized tools around one shared career workflow.]</p>
+
             <div class="feature-grid">
+                <div class="feature-card">
+                    <h3>Common Operating Picture</h3>
+                    <p>[Explain how CareerC2 brings together opportunities, professional evidence, applications, and outcomes.]</p>
+                </div>
 
-    <div class="feature-card">
-        <h3>Common Operating Picture</h3>
-        <p>
-            [Explain how CareerC2 brings together opportunities,
-            professional evidence, applications, and outcomes.]
-        </p>
-    </div>
+                <div class="feature-card">
+                    <h3>Decision Support</h3>
+                    <p>[Explain how CareerC2 helps prioritize opportunities, identify gaps, and support better decisions.]</p>
+                </div>
 
-    <div class="feature-card">
-        <h3>Decision Support</h3>
-        <p>
-            [Explain how the platform helps prioritize opportunities,
-            identify gaps, and support better job-search decisions.]
-        </p>
-    </div>
+                <div class="feature-card">
+                    <h3>Application Targeting</h3>
+                    <p>[Explain how Chimera develops each job into a tailored, evidence-grounded application.]</p>
+                </div>
 
-    <div class="feature-card">
-        <h3>Application Targeting</h3>
-        <p>
-            [Explain how Chimera develops each job into a tailored,
-            evidence-grounded application.]
-        </p>
-    </div>
-
-    <div class="feature-card">
-        <h3>Continuous Improvement</h3>
-        <p>
-            [Explain how feedback from applications and interviews
-            improves future applications.]
-        </p>
-    </div>
-
-</div>
+                <div class="feature-card">
+                    <h3>Continuous Improvement</h3>
+                    <p>[Explain how feedback from applications and interviews improves future applications.]</p>
+                </div>
+            </div>
         </div>
     </section>
 
-    <section id="how-it-works">
+    <section id="suite">
         <div class="container">
+            <div class="section-heading">
+                <span class="eyebrow">CareerC2 Tool Suite</span>
+                <h2>Seven specialized tools. One career operating picture.</h2>
+                <p class="section-intro">
+                    [Explain that CareerC2 is planned as a suite of seven specialized tools. Each tool owns a distinct part of the veteran job hunt while contributing to the same overall workflow.]
+                </p>
+            </div>
 
-            <h2>
-                [How CareerC2 Works]
-            </h2>
+            <div class="tool-grid">
+                <article class="tool-card tool-card-featured">
+                    <div class="tool-status">Beta Soon</div>
+                    <h3>Chimera</h3>
+                    <p class="tool-subtitle">Resume Targeting System</p>
+                    <p>[Explain Chimera in one short paragraph. This should be the most detailed tool card because Chimera is the first working CareerC2 subsystem.]</p>
+                    <a href="#chimera" class="text-link">Explore Chimera →</a>
+                </article>
 
-            <!--
-            Eventually turn this into a visual flow.
+                <article class="tool-card tool-card-planned">
+                    <div class="tool-status">Planned</div>
+                    <h3>[Tool 2]</h3>
+                    <p class="tool-subtitle">[Functional category]</p>
+                    <p>[One-sentence placeholder explaining the future tool.]</p>
+                </article>
 
-            Example:
-            Discover
-              ↓
-            Analyze
-              ↓
-            Match
-              ↓
-            Generate
-              ↓
-            Evaluate
-              ↓
-            Track
-            -->
+                <article class="tool-card tool-card-planned">
+                    <div class="tool-status">Planned</div>
+                    <h3>[Tool 3]</h3>
+                    <p class="tool-subtitle">[Functional category]</p>
+                    <p>[One-sentence placeholder explaining the future tool.]</p>
+                </article>
 
+                <article class="tool-card tool-card-planned">
+                    <div class="tool-status">Planned</div>
+                    <h3>[Tool 4]</h3>
+                    <p class="tool-subtitle">[Functional category]</p>
+                    <p>[One-sentence placeholder explaining the future tool.]</p>
+                </article>
+
+                <article class="tool-card tool-card-planned">
+                    <div class="tool-status">Planned</div>
+                    <h3>[Tool 5]</h3>
+                    <p class="tool-subtitle">[Functional category]</p>
+                    <p>[One-sentence placeholder explaining the future tool.]</p>
+                </article>
+
+                <article class="tool-card tool-card-planned">
+                    <div class="tool-status">Planned</div>
+                    <h3>[Tool 6]</h3>
+                    <p class="tool-subtitle">[Functional category]</p>
+                    <p>[One-sentence placeholder explaining the future tool.]</p>
+                </article>
+
+                <article class="tool-card tool-card-planned">
+                    <div class="tool-status">Planned</div>
+                    <h3>[Tool 7]</h3>
+                    <p class="tool-subtitle">[Functional category]</p>
+                    <p>[One-sentence placeholder explaining the future tool.]</p>
+                </article>
+            </div>
         </div>
     </section>
+
     <section id="architecture">
-    <div class="container">
+        <div class="container">
+            <span class="eyebrow">System Architecture</span>
+            <h2>[CareerC2 Architecture]</h2>
+            <p class="section-intro">[Explain that CareerC2 is the coordinating platform while specialized tools perform individual missions.]</p>
 
-        <h2>
-            [CareerC2 Architecture]
-        </h2>
+            <div class="architecture">
+                <div class="architecture-main">
+                    <strong>CareerC2</strong>
+                    <span>[Career management and decision-support platform]</span>
+                </div>
 
-        <p>
-            [Explain that CareerC2 is the coordinating platform,
-            while specialized subsystems perform individual missions.]
-        </p>
+                <div class="architecture-line"></div>
 
-        <div class="architecture">
+                <div class="architecture-grid">
+                    <div class="architecture-card architecture-card-featured">
+                        <strong>Chimera</strong>
+                        <span>Resume Targeting System</span>
+                    </div>
 
-            <div class="architecture-main">
-                <strong>CareerC2</strong>
-                <span>
-                    [Career management and decision-support platform]
-                </span>
+                    <div class="architecture-card"><strong>[Tool 2]</strong><span>[Future capability]</span></div>
+                    <div class="architecture-card"><strong>[Tool 3]</strong><span>[Future capability]</span></div>
+                    <div class="architecture-card"><strong>[Tool 4]</strong><span>[Future capability]</span></div>
+                    <div class="architecture-card"><strong>[Tool 5]</strong><span>[Future capability]</span></div>
+                    <div class="architecture-card"><strong>[Tool 6]</strong><span>[Future capability]</span></div>
+                    <div class="architecture-card"><strong>[Tool 7]</strong><span>[Future capability]</span></div>
+                </div>
             </div>
-
-            <div class="architecture-line"></div>
-
-            <div class="architecture-grid">
-
-                <div class="architecture-card">
-                    <strong>Chimera</strong>
-                    <span>
-                        [Resume and application targeting system]
-                    </span>
-                </div>
-
-                <div class="architecture-card">
-                    <strong>[Future Job Discovery]</strong>
-                    <span>
-                        [Find and collect relevant opportunities]
-                    </span>
-                </div>
-
-                <div class="architecture-card">
-                    <strong>[Future Application Tracking]</strong>
-                    <span>
-                        [Track applications and outcomes]
-                    </span>
-                </div>
-
-                <div class="architecture-card">
-                    <strong>[Future Decision Support]</strong>
-                    <span>
-                        [Analytics, prioritization, and feedback]
-                    </span>
-                </div>
-
-            </div>
-
         </div>
+    </section>
 
-    </div>
-</section>
     <section id="chimera">
         <div class="container">
+            <span class="eyebrow">Current System · Beta Soon</span>
+            <h2>Chimera</h2>
 
-            <h2>
-                [Chimera]
-            </h2>
+            <p class="lead">
+                [Put the strongest plain-English description of Chimera here. Explain the outcome first: Chimera builds a resume specifically around the target job using the candidate's full professional history.]
+            </p>
 
-            <!--
-            Explain Chimera as the resume/application
-            targeting subsystem.
+            <div class="feature-grid chimera-features">
+                <div class="feature-card">
+                    <h3>Searches Beyond Your Resume</h3>
+                    <p>[Explain that Chimera uses the candidate's broader professional evidence instead of being limited to an old resume.]</p>
+                </div>
 
-            Cover:
-            - analyzes job descriptions
-            - searches professional evidence
-            - interviews the user for missing evidence
-            - matches candidate evidence to the job
-            - generates the targeted resume
-            - evaluates the finished result
-            -->
+                <div class="feature-card">
+                    <h3>Interviews You for Missing Evidence</h3>
+                    <p>[Explain that Chimera asks targeted questions when important facts are missing instead of guessing.]</p>
+                </div>
 
+                <div class="feature-card">
+                    <h3>Builds Around the Target Job</h3>
+                    <p>[Explain how employer requirements drive evidence selection, positioning, resume content, and prioritization.]</p>
+                </div>
+
+                <div class="feature-card">
+                    <h3>Evaluates Its Own Output</h3>
+                    <p>[Explain that the completed resume is independently evaluated against the target job.]</p>
+                </div>
+            </div>
+
+            <div class="chimera-workflow">
+                <div class="section-heading">
+                    <span class="eyebrow">Chimera Workflow</span>
+                    <h3>From target job to evaluated resume.</h3>
+                    <p>[Explain that Chimera is a multi-stage workflow rather than a single chatbot prompt.]</p>
+                </div>
+
+                <div class="pipeline">
+                    <div class="pipeline-step">
+                        <span>01</span>
+                        <strong>Analyze</strong>
+                        <p>[Understand what the employer actually needs.]</p>
+                    </div>
+
+                    <div class="pipeline-arrow" aria-hidden="true">→</div>
+
+                    <div class="pipeline-step">
+                        <span>02</span>
+                        <strong>Find Evidence</strong>
+                        <p>[Search the candidate's full professional history.]</p>
+                    </div>
+
+                    <div class="pipeline-arrow" aria-hidden="true">→</div>
+
+                    <div class="pipeline-step">
+                        <span>03</span>
+                        <strong>Interview</strong>
+                        <p>[Ask focused questions when material evidence is missing.]</p>
+                    </div>
+
+                    <div class="pipeline-arrow" aria-hidden="true">→</div>
+
+                    <div class="pipeline-step">
+                        <span>04</span>
+                        <strong>Match</strong>
+                        <p>[Determine which evidence best proves qualification.]</p>
+                    </div>
+
+                    <div class="pipeline-arrow" aria-hidden="true">→</div>
+
+                    <div class="pipeline-step">
+                        <span>05</span>
+                        <strong>Build</strong>
+                        <p>[Draft and render the targeted resume.]</p>
+                    </div>
+
+                    <div class="pipeline-arrow" aria-hidden="true">→</div>
+
+                    <div class="pipeline-step">
+                        <span>06</span>
+                        <strong>Evaluate</strong>
+                        <p>[Challenge the finished resume against the target job.]</p>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 
     <section id="different">
         <div class="container">
-
-            <h2>
-                [Why This Is Different]
-            </h2>
+            <span class="eyebrow">Why Chimera Is Different</span>
+            <h2>[Not Just Another AI Resume Writer]</h2>
 
             <!--
-            Explain differences from ordinary AI resume tools.
-
-            Topics:
+            Suggested topics:
             - persistent professional evidence
             - evidence authorization
             - interviewing
+            - evidence integration
             - no fabrication
             - target-specific generation
-            - evaluation
+            - deterministic rendering
+            - independent evaluation
             -->
 
+            <div class="feature-grid">
+                <div class="feature-card"><h3>[Difference 1]</h3><p>[Explain the first key differentiator.]</p></div>
+                <div class="feature-card"><h3>[Difference 2]</h3><p>[Explain the second key differentiator.]</p></div>
+                <div class="feature-card"><h3>[Difference 3]</h3><p>[Explain the third key differentiator.]</p></div>
+                <div class="feature-card"><h3>[Difference 4]</h3><p>[Explain the fourth key differentiator.]</p></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="beta">
+        <div class="container">
+            <span class="eyebrow">Current Status</span>
+            <h2>Chimera Beta</h2>
+
+            <p class="section-intro">
+                [Explain what Chimera can do today and what remains under development. Use this section for upcoming beta-testing information.]
+            </p>
+
+            <div class="status-grid">
+                <div class="status-card">
+                    <h3>Working Now</h3>
+                    <ul>
+                        <li>[Job analysis]</li>
+                        <li>[Evidence authorization]</li>
+                        <li>[Candidate interviewing]</li>
+                        <li>[Evidence integration]</li>
+                        <li>[Match analysis]</li>
+                        <li>[Resume drafting]</li>
+                        <li>[DOCX rendering]</li>
+                        <li>[Resume evaluation]</li>
+                    </ul>
+                </div>
+
+                <div class="status-card">
+                    <h3>Next in Chimera</h3>
+                    <ul>
+                        <li>[Supervisor revision loop]</li>
+                        <li>[Multiple candidate profiles]</li>
+                        <li>[Additional testing and validation]</li>
+                        <li>[Containerized deployment]</li>
+                    </ul>
+                </div>
+            </div>
         </div>
     </section>
 
     <section id="roadmap">
         <div class="container">
-
-            <h2>
-                [Development Roadmap]
-            </h2>
+            <span class="eyebrow">Development Roadmap</span>
+            <h2>[From Chimera to CareerC2]</h2>
 
             <!--
-            Current:
-            - Chimera workflow
-            - interviewing
-            - evidence integration
-            - resume generation
-            - rendering
-            - evaluation
-
-            Next:
-            - supervisor loop
+            Chimera:
+            - supervisor feedback loop
             - multiple profiles
-            - job discovery
-            - Trello integration
+            - beta testing
             - Docker deployment
+
+            CareerC2:
+            - six additional specialized tools
+            - job discovery
+            - application tracking
+            - decision support
+            - integrations
+            - shared career operating picture
             -->
 
+            <p class="section-intro">
+                [Explain how Chimera is the first operational subsystem and how later tools will expand CareerC2 into the broader platform.]
+            </p>
         </div>
     </section>
 
     <section id="today">
         <div class="container">
+            <span class="eyebrow">Before Release</span>
+            <h2>[What You Can Do Today]</h2>
 
-            <h2>
-                [What You Can Do Today]
-            </h2>
+            <div class="feature-grid">
+                <div class="feature-card">
+                    <h3>[Get Organized]</h3>
+                    <p>[Explain what job seekers should track now.]</p>
+                </div>
 
-            <!--
-            Suggested content:
-            - organize your job hunt
-            - track applications
-            - build professional evidence
-            - tailor resumes
-            - use the current MVP
-            - follow development
-            -->
+                <div class="feature-card">
+                    <h3>[Build Your Evidence]</h3>
+                    <p>[Explain how to start documenting accomplishments and professional episodes.]</p>
+                </div>
 
+                <div class="feature-card">
+                    <h3>[Use the Current MVP]</h3>
+                    <p>[Explain where the current manual / ChatGPT workflow can be found.]</p>
+                </div>
+
+                <div class="feature-card">
+                    <h3>[Follow Development]</h3>
+                    <p>[Explain how visitors can follow progress or prepare for beta testing.]</p>
+                </div>
+            </div>
         </div>
     </section>
 
     <section id="cta">
         <div class="container">
+            <span class="eyebrow">Get Involved</span>
+            <h2>[Call to Action]</h2>
 
-            <h2>
-                [Call to Action]
-            </h2>
+            <p class="section-intro">[Short CTA explanation.]</p>
 
-            <!--
-            Pick one or two primary actions.
-
-            Examples:
-            - View GitHub
-            - Try the MVP
-            - Read the RFC
-            - Follow development
-            -->
-
+            <div class="cta-actions">
+                <a class="button" href="#">[Primary Action]</a>
+                <a class="button button-secondary" href="#">[Secondary Action]</a>
+            </div>
         </div>
     </section>
 
 </main>
 
-<footer>
+<footer class="site-footer">
     <div class="container">
+        <div>
+            <strong>CareerC2</strong>
+            <p>[Short footer description.]</p>
+        </div>
 
-        <!--
-        Add:
-        - GitHub link
-        - project status
-        - contact
-        - license
-        -->
-
-        <p>
-            CareerC2
-        </p>
-
+        <div class="footer-links">
+            <a href="#">GitHub</a>
+            <a href="#">Documentation</a>
+            <a href="#">Contact</a>
+        </div>
     </div>
 </footer>
 
