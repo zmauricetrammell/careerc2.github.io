@@ -27,3 +27,12 @@ index.html
 css/
 _config.yml
 README.md
+```
+
+## Development
+
+[Add local development instructions later.]
+
+## License
+
+[Add license information.]
