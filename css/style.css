@@ -167,3 +167,149 @@ footer {
         grid-template-columns: 1fr;
     }
 }
+
+.section-heading {
+    max-width: 750px;
+    margin-bottom: 3rem;
+}
+
+.eyebrow {
+    display: block;
+    margin-bottom: 0.75rem;
+    font-size: 0.85rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: #2563eb;
+}
+
+.tool-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+}
+
+.tool-card {
+    position: relative;
+    padding: 2rem;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    background: #ffffff;
+}
+
+.tool-card-featured {
+    grid-column: span 2;
+    border: 2px solid #2563eb;
+}
+
+.tool-card-planned {
+    background: #f8fafc;
+}
+
+.tool-status {
+    display: inline-block;
+    margin-bottom: 1rem;
+    padding: 0.3rem 0.65rem;
+    border-radius: 999px;
+    font-size: 0.75rem;
+    font-weight: 700;
+    background: #eff6ff;
+    color: #1d4ed8;
+}
+
+.tool-card-planned .tool-status {
+    background: #f1f5f9;
+    color: #64748b;
+}
+
+.tool-card h3 {
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+.tool-subtitle {
+    margin-top: 0.25rem;
+    font-weight: 600;
+    color: #475569;
+}
+
+.text-link {
+    display: inline-block;
+    margin-top: 1rem;
+    font-weight: 600;
+    color: #2563eb;
+    text-decoration: none;
+}
+
+@media (max-width: 900px) {
+    .tool-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .tool-card-featured {
+        grid-column: span 2;
+    }
+}
+
+@media (max-width: 600px) {
+    .tool-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .tool-card-featured {
+        grid-column: span 1;
+    }
+}
+
+.pipeline {
+    display: flex;
+    align-items: stretch;
+    gap: 1rem;
+    margin-top: 3rem;
+}
+
+.pipeline-step {
+    flex: 1;
+    min-width: 0;
+    padding: 1.5rem;
+    border: 1px solid #e5e7eb;
+    border-radius: 10px;
+    background: #ffffff;
+}
+
+.pipeline-step span {
+    display: block;
+    margin-bottom: 0.75rem;
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: #2563eb;
+}
+
+.pipeline-step strong {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.pipeline-step p {
+    margin: 0;
+    font-size: 0.9rem;
+    color: #64748b;
+}
+
+.pipeline-arrow {
+    display: flex;
+    align-items: center;
+    color: #2563eb;
+    font-size: 1.5rem;
+}
+
+@media (max-width: 1000px) {
+    .pipeline {
+        flex-direction: column;
+    }
+
+    .pipeline-arrow {
+        justify-content: center;
+        transform: rotate(90deg);
+    }
+}
